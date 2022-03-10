@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="intro">
+          <h1>birthday calculater</h1>
+
+          <p>
+            My web application is to take users birthday <br />
+            and calculate the days of the week <br />
+            they were born and depending on their gender <br />
+            it outputs their Akan Name
+          </p>
+        </div>
+
+        <div class="form-control">
+          <div class="row">
+            <form action="#">
+              <div class="col-12">
+                <label for="date">Enter Date</label><br />
+                <input
+                  type="number"
+                  name="date"
+                  id="date"
+                  placeholder="Enter Date"
+                  required
+                /><br />
+              </div>
+              <div class="col-12">
+                <label for="month">Enter Month</label><br />
+                <input
+                  type="number"
+                  name="month"
+                  id="month"
+                  placeholder="Enter Month"
+                  required
+                /><br />
+              </div>
+              <div class="col-12">
+                <label for="year">Enter Year</label><br />
+                <input type="number"name="year"id="year"placeholder="Enter Year"required/><br/>
+              </div>
+              <div class="col-12">
+                <label for="gender">Select Your Gender</label><br />
+                <select name="gender " id="gender" required>
+                  <option selected disabled value="">Select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option></select
+                ><br />
+                <button type="submit">Submit</button>
+              </div>
+              
+              <p id="Result"></p>
+              <!-- <div class="col-md-4">
+                  <label for="weekday">Your Day Of Birth Is:</label><br>
+                  <input type="text"id="weekday" placeholder=""><br>
+                  <label for="akan">Your Akan Name Is:</label><br>
+                  <input type="text"id="akan" placeholder=""><br>
+                  
+
+              </div> -->
+
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
